@@ -1,6 +1,6 @@
 transformers
 pandas
 streamlit
-tensorflow
-torch
-torchvision
+transformers[torch]
+transformers[tf-cpu]
+transformers[flax]
