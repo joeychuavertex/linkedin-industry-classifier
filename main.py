@@ -7,7 +7,8 @@ linkedin_industry = linkedin_industry_csv['description']
 
 st.title("LinkedIn Industry Classifier")
 
-query = st.text_input("Search industries")
+# query = st.text_input("Search industries ")
+query = st.text_area("Search industries by name or description", height=200)
 
 if query:
     classifier = pipeline("zero-shot-classification", model="facebook/bart-large-mnli")
