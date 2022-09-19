@@ -1,3 +1,6 @@
 transformers
 pandas
 streamlit
+tensorFlow
+torch
+torchvision
