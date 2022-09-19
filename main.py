@@ -7,8 +7,8 @@ linkedin_industry = linkedin_industry_csv['description']
 
 st.title("LinkedIn Industry Classifier")
 
-query = st.text_input("Search industries ")
-# query = st.text_area("Search industries by name or description", height=200)
+# query = st.text_input("Search industries by name or description")
+query = st.text_area("Search industries by name or description", height=200)
 st.caption("It will take around 30 seconds.")
 
 if query:
