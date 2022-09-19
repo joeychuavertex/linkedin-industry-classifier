@@ -1,6 +1,6 @@
 transformers
 pandas
 streamlit
-tensorFlow
+tensorflow
 torch
 torchvision
